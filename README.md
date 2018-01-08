@@ -58,7 +58,7 @@ my_bittrex.get_balance('ETH')
 
 ```
 
-This call to get_balance returns an object such as the following: :
+This call to get_balance returns an object such as the following:
 
 ```python
 {'success': True, 
