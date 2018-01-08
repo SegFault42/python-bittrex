@@ -38,7 +38,9 @@ my_bittrex.get_markets()
 
 This call to get_markets returns an object such as the following:
 
+```python
 {'success': True, 'message': '', 'result': [{'MarketCurrency': 'LTC', ...
+```
 
 API_V2_0 and API_V1_1 are constants that can be imported from Bittrex.
 
@@ -58,11 +60,13 @@ my_bittrex.get_balance('ETH')
 
 This call to get_balance returns an object such as the following: :
 
+```python
 {'success': True, 
  'message': '',
  'result': {'Currency': 'ETH', 'Balance': 0.0, 'Available': 0.0, 
             'Pending': 0.0, 'CryptoAddress': None}
 }
+```
 
 v1.1 constants of interest:
 ---
